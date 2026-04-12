@@ -6,7 +6,7 @@ Fast-track implementation of a high-performance mapping library using JavaScript
 ## Technology Stack
 
 ### Core
-- **JavaScript (ES2022+)** - No TypeScript for speed
+- **TypeScript 5.0+** - Type safety with fast compilation
 - **WebGL 2.0** - Direct GPU rendering for maximum performance
 - **Node.js 20+** - Build tooling and development server
 
@@ -16,8 +16,9 @@ Fast-track implementation of a high-performance mapping library using JavaScript
 - **Rollup** - Production builds with tree-shaking
 
 ### Testing
-- **Jest** - Unit testing
+- **Jest** - Unit testing with TypeScript support
 - **Playwright** - E2E and visual regression
+- **Vitest** - Fast TypeScript-native testing (optional)
 
 ### Key Libraries (Minimal Dependencies)
 - `gl-matrix` - Fast matrix/vector math
@@ -37,9 +38,9 @@ Fast-track implementation of a high-performance mapping library using JavaScript
 - Add basic CSS reset
 
 1.2. **WebGL Context Manager**
-- `src/core/Renderer.js` - WebGL context creation
-- `src/core/Framebuffer.js` - Offscreen rendering
-- `src/utils/Matrices.js` - Matrix utilities (projection, view, model)
+- `src/core/Renderer.ts` - WebGL context creation
+- `src/core/Framebuffer.ts` - Offscreen rendering
+- `src/utils/Matrices.ts` - Matrix utilities (projection, view, model)
 - Handle resize events
 - Error handling for WebGL initialization
 
