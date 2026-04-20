@@ -1,9 +1,5 @@
 import { RasterLayer } from './RasterLayer'
-import { LayerManager } from './LayerManager'
-import { TileCache } from './TileCache'
-import { Tile } from './Tile'
+import { VectorLayer } from './VectorLayer'
 
 export { RasterLayer }
-export { LayerManager }
-export { TileCache }
-export { Tile }
+export { VectorLayer }

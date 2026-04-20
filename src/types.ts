@@ -42,3 +42,9 @@ export interface LayerOptions {
   visible?: boolean
   opacity?: number
 }
+
+export type Layer = {
+  getType(): string
+  visible: boolean
+  opacity: number
+}
